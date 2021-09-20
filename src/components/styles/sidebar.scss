@@ -1,0 +1,44 @@
+
+.contenedorsidebar{
+    width: 100%; 
+    display: grid; 
+    grid-gap: 10px; 
+    grid-template-columns: repeat(2, 1fr); 
+    div{
+        grid-column: span 2; 
+        display: block; 
+        text-align: center;
+        border: 2px solid black; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        
+    } 
+    ul{
+        position: absolute; 
+        width: 79.5%; 
+        text-align: center;  
+        background-color:aqua; 
+        top: 159px; 
+        background-color: rgb(122, 118, 118);  
+        z-index: 20; 
+        animation-duration: 0.5s;
+    } 
+    li{
+        cursor: pointer; 
+        list-style: none; 
+        font-size: 20px; 
+        padding: 5px 5px;
+        border-bottom: 2px solid black;  
+        border-right: 2px solid black; 
+        border-left: 2px solid black;
+        
+    } 
+    h1{
+        font-size: 25px; 
+        margin: 5px 5px; 
+        
+    } 
+    i{
+        font-size: 25px; 
+        margin-left: 10px;
+    }
+}

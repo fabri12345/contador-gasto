@@ -1,0 +1,52 @@
+.contenedorcoleccion{
+        div{ 
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(1,auto); 
+        border: 4px solid black; 
+        border-radius: 0px 20px 20px 0px; 
+        background-color: darkgray; 
+        color: rgb(7, 7, 7); 
+        
+        
+        &:hover{
+            border: 4px solid rgb(201, 187, 187); 
+            background-color: rgb(10, 9, 9); 
+            color: rgb(201, 187, 187);  
+            transition: 0.5s;
+             
+        }
+        
+
+       }
+        h1{ 
+            grid-column: span 1;
+            font-size: 30px; 
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            border-left: 4px solid black; 
+            text-align: center; 
+            padding: 5px 5px; 
+            
+        }  
+        @media screen and (max-width: 635px){
+           div{
+            display: block;  
+            border: none;  
+            padding: 10px 10px; 
+            border-radius: 20px 20px 20px 20px; 
+            
+             
+            
+           } 
+           h1{ 
+            border: 3px solid black; 
+            border-radius: 20px 20px 20px 20px; 
+            margin: 5px 5px; 
+            border: 4px solid rgb(201, 187, 187); 
+           
+               
+               
+           }
+        }
+        
+}

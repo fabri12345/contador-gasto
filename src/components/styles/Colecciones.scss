@@ -1,0 +1,94 @@
+.contenedorcolecciones{
+    background-color: rgb(25, 27, 27); 
+    color: rgb(121, 92, 92);
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    grid-template-rows: repeat(12,auto);  
+    animation-duration: 2s; 
+    
+    div{
+        grid-column: span 2; 
+        width: 95%; 
+        color:rgb(5, 5, 5); 
+        margin: 10px 10px; 
+    }
+    span{
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-start; 
+        width: 95%; 
+        margin-left: 20px; 
+        font-size: 40px; 
+        margin: 10px 10px; 
+        cursor: pointer; 
+        
+
+        &:hover{
+            color: rgb(209, 167, 167); 
+            transition: 1s;
+        }
+    }  
+    h3{ 
+        margin-left: 30px; 
+        font-size: 40px; 
+        font-family: serif; 
+        background-color: darkgray; 
+        color: rgb(7, 7, 7); 
+        border: 4px solid black; 
+        border-radius: 20px 20px 20px 20px;
+        
+    
+    }   
+    
+    h2{
+         
+       font-size: 40px; 
+       margin: 10px 10px; 
+       display: flex; 
+       justify-content: space-between; 
+       align-items: center;  
+       width: 95%; 
+       font-family: serif;  
+       background-color: darkgray;
+       color: rgb(7, 7, 7); 
+       border: 4px solid black; 
+       border-radius: 0px 20px 20px 0px; 
+
+       &:hover{
+        background-color: rgb(10, 9, 9); 
+        color: rgb(201, 187, 187);  
+        border: 4px solid rgb(201, 187, 187); 
+        transition: 0.5s;
+    }
+        
+        
+    } 
+    i{ 
+        font-family: serif;
+        font-size: 40px; 
+         
+    } 
+    form{
+        width: 95%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin: 20px 20px;  
+         
+        input{
+            width: 45%; 
+            font-size: 30px; 
+            background-color: rgb(77, 80, 80); 
+            color: black; 
+            font-family: serif; 
+            border-radius: 10px 10px 10px 10px; 
+            text-align: center;   
+            border: 4px solid rgb(5, 5, 5) ;
+
+
+        }
+    }
+    
+    
+    
+}  
